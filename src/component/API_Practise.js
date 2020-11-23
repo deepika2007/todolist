@@ -25,7 +25,7 @@ class API_Practise extends React.Component {
             name: this.state.name
         };
 
-        axios.get(`http://localhost:3000/todo`, { todos })
+        axios.get(`http://localhost:5000/todo`, { todos })
             .then(result => {
                 console.log(result.data);
             })
